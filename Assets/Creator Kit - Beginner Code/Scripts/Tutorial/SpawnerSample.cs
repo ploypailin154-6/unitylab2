@@ -7,6 +7,7 @@ public class SpawnerSample : MonoBehaviour
 
     void Start()
     {
+        int radius = 5;
         int angle = 15;
         Vector3 spawnPosition = transform.position;
 
