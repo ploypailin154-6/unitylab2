@@ -32,5 +32,9 @@ public class SpawnerSample : MonoBehaviour
         Instantiate(ObjectToSpawn, spawnPosition, Quaternion.identity);
     }
     void AddingNumbers(float num1, float num2)
+    {
+        float resultingNumber;
+        resultingNumber = num1 + num2;
+    }
 }
 
