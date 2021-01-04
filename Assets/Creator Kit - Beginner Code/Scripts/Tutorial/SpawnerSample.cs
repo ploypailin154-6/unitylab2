@@ -34,6 +34,12 @@ public class SpawnerSample : MonoBehaviour
         int angle;
         int step;
 
+        LootAngle(int increment)
+        {
+            step = increment;
+            angle = 0;
+        }
+
         int NextAngle()
         {
             int currentAngle = angle;
