@@ -31,5 +31,6 @@ public class SpawnerSample : MonoBehaviour
         spawnPosition = transform.position + direction * radius;
         Instantiate(ObjectToSpawn, spawnPosition, Quaternion.identity);
     }
+    void AddingNumbers(float num1, float num2)
 }
 
