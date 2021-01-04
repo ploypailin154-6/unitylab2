@@ -4,7 +4,7 @@ using CreatorKitCode;
 public class SpawnerSample : MonoBehaviour
 {
     public GameObject ObjectToSpawn;
-    LootAngle myLootAngle = new LootAngle();
+    LootAngle myLootAngle = new LootAngle(45);
 
     void Start()
     {
