@@ -35,6 +35,7 @@ public class SpawnerSample : MonoBehaviour
     {
         float resultingNumber;
         resultingNumber = num1 + num2;
+        AddingNumbers(5.5f, 18.9f);
     }
 }
 
