@@ -10,10 +10,11 @@ public class SpawnerSample : MonoBehaviour
     {
         int radius = 5;
         int angle = 15;
-        SpawnPotion(0);
-        SpawnPotion(45);
-        SpawnPotion(90);
-        SpawnPotion(135);
+        //every call will advance the angle!
+        SpawnPotion(myLootAngle.NextAngle());
+        SpawnPotion(myLootAngle.NextAngle());
+        SpawnPotion(myLootAngle.NextAngle());
+        SpawnPotion(myLootAngle.NextAngle());
     }
     void AddingNumbers(float num1, float num2)
     {
