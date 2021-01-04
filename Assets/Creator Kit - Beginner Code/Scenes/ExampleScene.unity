@@ -61734,7 +61734,7 @@ GameObject:
   - component: {fileID: 1394012363}
   - component: {fileID: 1394012362}
   m_Layer: 0
-  m_Name: New Text
+  m_Name: student id text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
