@@ -30,6 +30,8 @@ public class SpawnerSample : MonoBehaviour
     }
     public class LootAngle
     {
+        int angle;
+        int step;
     }
 }
 
