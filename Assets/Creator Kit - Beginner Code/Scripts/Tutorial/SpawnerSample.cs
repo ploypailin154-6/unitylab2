@@ -38,5 +38,10 @@ public class SpawnerSample : MonoBehaviour
         AddingNumbers(5.5f, 18.9f);
     }
     void SpawnPotion(int angle)
+    {
+        Vector3 direction = Quaternion.Euler(0, angle, 0) * Vector3.right;
+        spawnPosition = transform.position + direction * radius;
+        Instantiate(ObjectToSpawn, spawnPosition, Quaternion.identity);
+    }
 }
 
