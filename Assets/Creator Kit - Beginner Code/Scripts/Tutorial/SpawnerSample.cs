@@ -37,5 +37,6 @@ public class SpawnerSample : MonoBehaviour
         resultingNumber = num1 + num2;
         AddingNumbers(5.5f, 18.9f);
     }
+    void SpawnPotion(int angle)
 }
 
