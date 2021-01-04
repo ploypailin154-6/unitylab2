@@ -28,5 +28,8 @@ public class SpawnerSample : MonoBehaviour
         Vector3 spawnPosition = transform.position + direction * radius;
         Instantiate(ObjectToSpawn, spawnPosition, Quaternion.identity);
     }
+    public class LootAngle
+    {
+    }
 }
 
